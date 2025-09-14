@@ -1,7 +1,7 @@
 # AstroVEdit
 
 <div align="center">
-<img width="389" height="387" alt="FullColor_Logo-Only_Round" src="https://github.com/user-attachments/assets/a0a39cab-f5c9-4d49-9e31-36c1dcf6d8bd" />
+<img width="128" height="128" alt="FullColor_Logo-Only_Round" src="https://github.com/user-attachments/assets/a0a39cab-f5c9-4d49-9e31-36c1dcf6d8bd" />
 
   
   **Amateur Astronomical Image Editing Software**
