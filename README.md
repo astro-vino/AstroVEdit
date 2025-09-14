@@ -60,7 +60,7 @@ AstroVEdit is a modern astronomical image editing application designed specifica
 ### Installation
 
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.0.0-Setup.exe` from [Releases](https://github.com/observatory-software/astrovEdit/releases)
+1. Download the latest `AstroVEdit-1.0.0-Setup.exe` from [Releases]([https://github.com/observatory-software/astrovEdit/releases](https://github.com/astro-vino/AstroVEdit/releases))
 2. Run the installer as Administrator
 3. Follow the installation wizard
 4. Launch AstroVEdit from Start Menu or Desktop shortcut
