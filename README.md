@@ -138,7 +138,7 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 
 ## 📞 Contact
 
-- **Project Homepage:** [https://github.com/observatory-software/astrovEdit](https://github.com/observatory-software/astrovEdit)
+- **Project Homepage:** [https://github.com/observatory-software/astrovEdit]([https://github.com/observatory-software/astrovEdit](https://github.com/astro-vino/AstroVEdit))
 - **Issues & Support:** [GitHub Issues](https://github.com/observatory-software/astrovEdit/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/observatory-software/astrovEdit/discussions)
 
