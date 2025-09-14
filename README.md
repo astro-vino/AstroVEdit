@@ -83,26 +83,6 @@ AstroVEdit is a modern astronomical image editing application designed specifica
 - **FITS Support:** CSharpFITS library for astronomical image handling
 - **Architecture:** MVVM pattern with layer-based image processing
 
-### Project Structure
-
-```
-AstroVEdit/
-├── MainWindow.xaml(.cs)          # Main application window and logic
-├── Layer.cs                      # Base layer and ImageLayer classes
-├── LayerManager.cs               # Layer stack management
-├── AdjustmentLayer.cs            # Base class for all adjustments
-├── Channel.cs                    # RGB channel representation
-├── *AdjustmentDialog.xaml(.cs)   # Individual adjustment tool dialogs
-├── AboutDialog.xaml(.cs)         # Application information dialog
-├── BoolToEyeIconConverter.cs     # UI converters and utilities
-├── CropTool.cs                   # Image cropping functionality
-├── ConvertStretchedToRawData.cs  # Data conversion utilities
-├── FitsHeaderCard.cs             # FITS metadata handling
-├── FitsHeaderWindow.xaml(.cs)    # FITS header viewer
-├── assets/                       # Application icons and resources
-└── nsis installer/               # Windows installer configuration
-```
-
 ### Dependencies
 
 - **MaterialDesignThemes** - Modern UI components and theming
