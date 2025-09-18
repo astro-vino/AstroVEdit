@@ -77,12 +77,11 @@ AstroVEdit is a modern astronomical image editing application designed specifica
 4. **Monitor Changes**: Watch the real-time histogram and preview updates
 5. **Save Your Work**: File → Save to preserve your edited image
 
-<img width="2933" height="1681" alt="image" src="https://github.com/user-attachments/assets/f7dde938-d3c3-43af-9d87-f6ee936ee621" />
+<img width="3383" height="2018" alt="image" src="https://github.com/user-attachments/assets/69c03d51-20df-4d7e-bea3-0c6e925acc36" />
 
-<img width="2928" height="1678" alt="image" src="https://github.com/user-attachments/assets/7348fb9e-a705-4d20-83d6-9cd6562435e6" />
+<img width="3386" height="2019" alt="image" src="https://github.com/user-attachments/assets/2eba8975-9ab7-4a9b-b15c-2b07636827d3" />
 
-<img width="2925" height="1675" alt="image" src="https://github.com/user-attachments/assets/1319f0ce-b744-4e85-a6c6-f865a80b657a" />
-
+<img width="3383" height="2018" alt="image" src="https://github.com/user-attachments/assets/728aa30f-199c-4484-9d06-3d8499abe989" />
 
 ## 🛠️ Development
 
