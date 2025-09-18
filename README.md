@@ -4,7 +4,7 @@
 <img width="128" height="128" alt="FullColor_Logo-Only_Round" src="https://github.com/user-attachments/assets/a0a39cab-f5c9-4d49-9e31-36c1dcf6d8bd" />
 
 
-  **Professional Amateur Astronomical Image Editing Software**
+  **Amateur Astronomical Image Editing Software**
 
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
@@ -14,7 +14,7 @@
 
 ## Overview
 
-AstroVEdit is a modern, professional-grade astronomical image editing application designed specifically for processing FITS (Flexible Image Transport System) files and other astronomical image formats. Built with WPF and .NET 9, it provides comprehensive tools for astrophotographers and astronomers to enhance and analyze their celestial captures with industry-standard workflows.
+AstroVEdit is a modern, astronomical image editing application designed specifically for processing FITS (Flexible Image Transport System) files and other astronomical image formats. Built with WPF and .NET 9, it provides comprehensive tools for astrophotographers and astronomers to enhance and analyze their celestial captures with industry-standard workflows.
 
 <img width="3383" height="2016" alt="image" src="https://github.com/user-attachments/assets/58cb0965-e9ae-4a0c-9ef7-ee1140d4f476" />
 
