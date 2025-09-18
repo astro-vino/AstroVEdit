@@ -18,6 +18,7 @@ AstroVEdit is a modern astronomical image editing application designed specifica
 
 <img width="3383" height="2016" alt="image" src="https://github.com/user-attachments/assets/58cb0965-e9ae-4a0c-9ef7-ee1140d4f476" />
 
+<img width="3386" height="2020" alt="image" src="https://github.com/user-attachments/assets/19969120-0505-440e-9544-4d8e37cf8921" />
 
 
 ## ✨ Key Features
