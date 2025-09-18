@@ -16,7 +16,8 @@
 
 AstroVEdit is a modern astronomical image editing application designed specifically for processing FITS (Flexible Image Transport System) files and other astronomical image formats. Built with WPF and .NET 9, it provides professional-grade tools for astrophotographers and astronomers to enhance and analyze their celestial captures.
 
-<img width="2933" height="1678" alt="image" src="https://github.com/user-attachments/assets/677bb53c-ee42-4e03-9b76-240fa089948a" />
+<img width="3383" height="2016" alt="image" src="https://github.com/user-attachments/assets/58cb0965-e9ae-4a0c-9ef7-ee1140d4f476" />
+
 
 
 ## ✨ Key Features
