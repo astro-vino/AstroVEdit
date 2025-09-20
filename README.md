@@ -285,44 +285,6 @@ Complete StarNet plugin integration for star removal and mask generation:
 14. **Export Final Image**: Save in your preferred format with all adjustments applied
 
 
-To best showcase AstroVEdit's capabilities, consider capturing these key scenarios:
-
-### **Primary Interface Screenshots**
-1. **Main Interface Overview** - Load a colorful nebula image with multiple adjustment layers visible in the layer panel, histogram showing, and fast preview indicator active
-2. **Enhanced Layer Management** - Show the layers panel with various layer types: Background (with padlock), GraXpert, StarNet Starless, StarNet Mask, Flattened Layer (with eye icon), and multiple adjustment layers with masks. **Highlight the new Move Up/Down arrow buttons and Flatten Layers button** between the mask and delete buttons in the layer controls
-3. **Layer Management Features** - Capture multi-selected layers with the Flatten Layers button enabled, and show the resulting "Flattened Layer" with eye icon for visibility toggle
-4. **Before/After Comparison** - Split view or toggle showing original vs processed image with SHO palette applied
-
-### **Advanced Tools in Action**
-5. **Star Analysis Dialog** - Non-modal dialog open with detected stars visible on main image, sortable data grid filled with star data, and quality metrics displayed
-6. **Layer Mask Creation** - Layer mask dialog showing luminosity mask with levels controls, blur settings, and red overlay visualization on main image
-7. **Star Reduction Dialog** - Show the four method options with Transfer method selected, stretch factor slider, and small star protection controls
-
-### **Plugin Integration**
-8. **GraXpert Dialog** - Interface showing background extraction settings, AI model selection, and progress feedback
-9. **StarNet Dialog** - Installation detection, processing options, and the resulting starless/mask layers in the layer panel
-10. **SCNR Dialog** - Color noise reduction interface with protection method dropdown and real-time preview
-
-### **Performance Features**
-11. **Fast Preview System** - Orange "FAST PREVIEW" indicator visible in top-right corner during slider adjustment
-12. **Responsive UI** - Levels dialog with gamma slider being adjusted and lookup table optimization in action
-13. **Custom Dialogs** - Styled dialogs (Information, Warning, Error) replacing standard Windows MessageBox
-
-### **Layer Management Features**
-14. **Layer Reordering Interface** - Close-up of the layer panel showing the Move Up/Down arrow buttons, with tooltips visible showing "Move Layer Up (Ctrl+Up)" and "Move Layer Down (Ctrl+Down)"
-15. **Layer Flattening Interface** - Screenshot showing multiple layers selected (Ctrl+Click) with the Flatten Layers button enabled, demonstrating the multi-selection flattening workflow
-16. **Flattened Layer Result** - Show the resulting "Flattened Layer" with eye icon (not padlock) that can be toggled for visibility and deleted like other processed layers
-17. **Base Layer Protection** - Screenshot showing a layer selected above the padlocked Background layer, with Move Down button appropriately disabled to demonstrate base layer protection
-
-### **Astrophotography Workflow**
-18. **Narrowband Processing** - SHO palette application showing dramatic color transformation from original to processed
-19. **Quality Results** - Final processed image showcasing the quality achievable with AstroVEdit's tools
-20. **Multi-Layer Workflow** - Complex processing chain showing GraXpert background removal, StarNet star processing, color grading, selective masking, layer reordering, and layer flattening capabilities
-
-
-
-## 🛠️ Development
-
 ### Technology Stack
 - **Framework:** .NET 9.0 with WPF
 - **UI Library:** Material Design in XAML Toolkit
