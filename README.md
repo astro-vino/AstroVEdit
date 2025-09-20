@@ -18,7 +18,8 @@ AstroVEdit is an astronomical image editing application designed specifically fo
 
 Featuring a complete suite of adjustment layers, advanced plugin integrations, and specialized astrophotography tools, AstroVEdit delivers high-quality processing with an intuitive, modern interface designed for amateur astronomers and astrophotographers.
 
-<img width="3047" height="2038" alt="image" src="https://github.com/user-attachments/assets/263f7e7d-6c69-4d7e-b222-c7d1da366d77" />
+<img width="3225" height="2055" alt="image" src="https://github.com/user-attachments/assets/1f8ea61b-5a44-4c09-b73d-c69b433cef5d" />
+
 
 
 ## 🆕 What's New in v1.1.0
@@ -38,7 +39,7 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, a
 - **Visual Feedback** - Optional red overlay to visualize mask areas on the main viewport
 - **Performance Optimized** - Intelligent caching and fast preview mode for smooth editing experience
 
-<img width="3043" height="2038" alt="image" src="https://github.com/user-attachments/assets/8ff517d2-28ac-4de3-adc1-04748a23e3fb" />
+<img width="3217" height="2052" alt="image" src="https://github.com/user-attachments/assets/57201985-88aa-4910-bbca-a11233e24b60" />
 
 
 ### 🌟 **Star Analysis Tools**
@@ -105,7 +106,7 @@ Professional star re-addition tool for astrophotography workflows:
 - **Real-Time Preview** - Instant feedback with optimized rendering during adjustments
 - **StarNet Integration** - Perfect companion to StarNet-generated star images and masks
 
-<img width="3046" height="2036" alt="image" src="https://github.com/user-attachments/assets/2ba70ebb-6f2b-4baa-8ba9-856e8636373b" />
+<img width="3223" height="2049" alt="image" src="https://github.com/user-attachments/assets/e3a4a6f0-4598-4491-b678-7fdf2970b69b" />
 
 
 ### 🌌 **Astrophotography Presets**
