@@ -125,6 +125,8 @@ Narrowband and broadband color palettes used by the astrophotography community:
 
 ### 🔧 **Features**
 - **Layer Management System** - Organize adjustments in a layer stack with show/hide controls
+- **Layer Reordering** - Move layers up/down with buttons or Ctrl+Up/Down keyboard shortcuts
+- **Base Layer Protection** - Padlocked background layer stays at bottom of stack
 - **Layer Visibility Toggle** - Individual layer on/off controls for comparison and fine-tuning
 - **Layer Masks** - Luminosity-based selective adjustments with levels, blur, and invert controls
 - **Mask Operations** - Copy, paste, and delete masks between layers with intuitive right-click menus
@@ -404,6 +406,8 @@ Found a bug or have a feature request? Please create an issue on our [GitHub Iss
 
 ### Layer Management
 - **Toggle Layer Visibility**: Click eye icon next to layer
+- **Move Layers**: Use Move Up/Down buttons or `Ctrl` + `Up`/`Down` arrows to reorder layers
+- **Base Layer Protection**: Background layer with padlock icon cannot be moved or have layers moved below it
 - **Edit Layer**: Click gear icon next to layer (not available for read-only layers like GraXpert/StarNet)
 - **Add Adjustment Layer**: Right-click "+" button in layers panel for context menu (includes Add Stars layer)
 - **Add Layer Mask**: Click mask button or right-click layer name
