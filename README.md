@@ -55,6 +55,7 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, a
 
 ### 🔧 **Advanced Processing Tools**
 - **Star Reduction** - Star size reduction with 4 methods (Transfer, Halo, Star, Lightness)
+- **Add Stars** - Professional star blending with multiple blend modes, opacity control, and star enhancement options
 - **Remove Magenta** - Comprehensive magenta cast removal with 5 algorithms
 - **SCNR (Subtractive Chromatic Noise Reduction)** - Color noise reduction with 5 protection methods
 - **StarNet Integration** - Complete StarNet plugin with layer-based workflow for star removal and mask generation
@@ -91,6 +92,19 @@ All adjustment tools now feature **ultra-responsive sliders** with real-time fas
 - **Hue & Saturation** - Selective color enhancement with real-time preview
 - **Selective Color** - Target specific color ranges (CMYK) with fast slider response and astrophotography presets
 
+#### **Add Stars Layer**
+Professional star re-addition tool for astrophotography workflows:
+
+- **Star Image Selection** - Browse for star images with intelligent folder detection (starts in original image folder)
+- **Multiple Blend Modes** - Screen, Linear Dodge, Lighten, Color Dodge, Soft Light, Overlay, Normal for different star effects
+- **Opacity Control** - Fine-tune star visibility with 0-100% opacity adjustment
+- **Star Enhancement** - Brightness and contrast controls specifically for star appearance
+- **Star Size Adjustment** - Resize stars from 50% to 200% for optimal visual balance
+- **Color Preservation** - Optional star color preservation to maintain natural star colors
+- **Star Masking** - Optional threshold-based masking to control which stars are added
+- **Real-Time Preview** - Instant feedback with optimized rendering during adjustments
+- **StarNet Integration** - Perfect companion to StarNet-generated star images and masks
+
 <img width="3046" height="2036" alt="image" src="https://github.com/user-attachments/assets/2ba70ebb-6f2b-4baa-8ba9-856e8636373b" />
 
 
@@ -115,6 +129,7 @@ Narrowband and broadband color palettes used by the astrophotography community:
 - **Layer Masks** - Luminosity-based selective adjustments with levels, blur, and invert controls
 - **Mask Operations** - Copy, paste, and delete masks between layers with intuitive right-click menus
 - **Read-Only Layers** - Special layers (like GraXpert and StarNet processing) that preserve workflow integrity
+- **Add Stars Layer** - Professional star blending with multiple blend modes and enhancement controls
 - **Channel Control** - Individual RGB composite channel visibility and manipulation
 - **Live Histogram Analysis** - Real-time RGB histogram with square root and logarithmic scaling
 - **Star Analysis Tools** - FWHM measurement and focus quality assessment with interactive selection
@@ -175,7 +190,8 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 - **Layer-Based Workflow**
   - Creates "StarNet Starless" layer with star-removed image
-  - Creates "StarNet Mask" layer for selective star re-addition
+  - Creates "StarNet Extracted Stars" layer for use with Add Stars adjustment
+  - Optional saving of extracted stars as separate TIFF files
   - Non-destructive workflow preserving original data
   - Full layer system integration (visibility, deletion, selection)
 
@@ -253,15 +269,16 @@ Complete StarNet plugin integration for star removal and mask generation:
 1. **Load Your Image**: Open FITS, TIFF, or other astronomical image formats
 2. **Assess Image Quality**: Use Star Analysis to measure FWHM and focus quality with interactive star selection
 3. **Background Processing**: Apply GraXpert background extraction or denoising as separate layers
-4. **Star Processing**: Use StarNet for star removal and mask generation, or Star Reduction for size control
-5. **Apply Narrowband Preset**: Choose SHO, HOO, or other palettes for instant color grading
-6. **Fine-tune with Optimized Layers**: Add Levels, Curves, or Color Balance with ultra-fast response
-7. **Create Selective Masks**: Right-click layers to add luminosity masks for targeted adjustments
-8. **Refine Mask Properties**: Use levels, blur, and invert controls for precise mask customization
-9. **Color Correction**: Use Remove Magenta or SCNR tools for color cast and noise reduction
-10. **Compare Results**: Toggle layer visibility and mask overlays to compare processing stages
-11. **Export Analysis Data**: Export star analysis to CSV for record keeping
-12. **Export Final Image**: Save in your preferred format with all adjustments applied
+4. **Star Processing**: Use StarNet for star removal and extracted stars generation, or Star Reduction for size control
+5. **Star Re-addition**: Use Add Stars layer with StarNet-extracted stars for selective star blending
+6. **Apply Narrowband Preset**: Choose SHO, HOO, or other palettes for instant color grading
+7. **Fine-tune with Optimized Layers**: Add Levels, Curves, or Color Balance with ultra-fast response
+8. **Create Selective Masks**: Right-click layers to add luminosity masks for targeted adjustments
+9. **Refine Mask Properties**: Use levels, blur, and invert controls for precise mask customization
+10. **Color Correction**: Use Remove Magenta or SCNR tools for color cast and noise reduction
+11. **Compare Results**: Toggle layer visibility and mask overlays to compare processing stages
+12. **Export Analysis Data**: Export star analysis to CSV for record keeping
+13. **Export Final Image**: Save in your preferred format with all adjustments applied
 
 
 To best showcase AstroVEdit's capabilities, consider capturing these key scenarios:
@@ -317,6 +334,7 @@ To best showcase AstroVEdit's capabilities, consider capturing these key scenari
 - **AstroPaletteProcessor** - Authentic narrowband channel combination engine
 - **StarDetector** - Advanced star detection with FWHM measurement and quality assessment
 - **StarReductionAdjustmentLayer** - Star size reduction with 4 methods
+- **AddStarsAdjustmentLayer** - Professional star blending with multiple blend modes and enhancement controls
 - **RemoveMagentaAdjustmentLayer** - Comprehensive magenta cast removal with 5 algorithms
 - **SCNRAdjustmentLayer** - Color noise reduction with 5 protection methods
 - **GraXpertDialog** - Plugin integration interface with layer-based output
@@ -387,7 +405,7 @@ Found a bug or have a feature request? Please create an issue on our [GitHub Iss
 ### Layer Management
 - **Toggle Layer Visibility**: Click eye icon next to layer
 - **Edit Layer**: Click gear icon next to layer (not available for read-only layers like GraXpert/StarNet)
-- **Add Adjustment Layer**: Right-click "+" button in layers panel for context menu
+- **Add Adjustment Layer**: Right-click "+" button in layers panel for context menu (includes Add Stars layer)
 - **Add Layer Mask**: Click mask button or right-click layer name
 - **Edit Layer Mask**: Click orange mask icon next to layer
 - **Copy/Paste Masks**: Right-click mask icon for context menu
