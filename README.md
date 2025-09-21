@@ -9,7 +9,7 @@
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.3.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.4.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
@@ -21,7 +21,37 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 <img width="3047" height="2038" alt="image" src="https://github.com/user-attachments/assets/263f7e7d-6c69-4d7e-b222-c7d1da366d77" />
 
 
-## 🆕 What's New in v1.3.0
+## 🆕 What's New in v1.4.0
+
+### 🌌 **Professional Narrowband Processing System**
+- **PixInsight-Style Interface** - Complete narrowband processing dialog matching PixInsight's NarrowbandNormalization tool
+- **12 Authentic Palettes** - SHO (Hubble), HOO, HSO, HOS, OSH, OHS, OSS, OHH, HSS, Foraxx, Realistic 1 & 2
+- **Advanced Channel Controls** - SCNR, OIII Boost, SII Boost with professional parameter ranges
+- **Synthetic Green Blend** - 4 blend modes (Average, Geometric, Maximum, Minimum) with adjustable amount
+- **Lightness Preservation** - Preserve, Ignore, or Enhance modes for luminance control
+- **Tonal Adjustments** - Shadow Point, Highlight Reduction, and Brightness controls
+- **18 Professional Blend Modes** - Complete blend mode system including Luminosity, Color, Saturation, Hue
+- **Performance Optimized** - Intelligent caching, lookup tables, and fast preview mode
+
+### 🔧 **Enhanced Noise Reduction**
+- **Fixed Dialog Issues** - Resolved DialogResult exceptions and layer creation problems
+- **Improved Performance** - Optimized processing algorithms with better caching
+- **Professional Integration** - Seamless layer system integration with proper error handling
+- **Real-time Preview** - Smooth slider response with intelligent throttling
+
+### ⚡ **Performance Improvements**
+- **Instant Dialog Loading** - Deferred control initialization for immediate dialog appearance
+- **Optimized ComboBox Selection** - Direct index assignment instead of slow string comparison loops
+- **Fast Preview Optimization** - Improved slider responsiveness with better caching and throttling
+- **Smart Timer Management** - Intelligent update intervals for smooth real-time feedback
+
+### 🐛 **Critical Fixes**
+- **Dialog Startup Delay** - Eliminated delays when opening adjustment dialogs
+- **Property Change Notifications** - Fixed cache invalidation and UI update issues
+- **DialogResult Handling** - Robust dialog result management with fallback detection
+- **Layer Creation Logic** - Reliable adjustment layer creation and integration
+
+## 🔄 What Was New in v1.3.0
 
 ### 🗂️ **Advanced Project File System (.vino)**
 - **Complete Layer Preservation** - Save and restore entire layer stacks with exact parameter values
@@ -309,7 +339,7 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ### Installation
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.3.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
+1. Download the latest `AstroVEdit-1.4.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
 2. Run the installer as Administrator
 3. Follow the installation wizard
 4. **File Associations**: Installer automatically registers .vino project files and adds "Open with AstroVEdit" to image context menus
@@ -573,7 +603,15 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ## 📋 Roadmap
 
-### Recently Completed in v1.3.0 ✅
+### Recently Completed in v1.4.0 ✅
+- [x] **Professional Narrowband Processing** - Complete PixInsight-style narrowband system with 12 palettes and advanced controls
+- [x] **Performance Revolution** - Instant dialog loading, optimized ComboBox selection, and improved slider responsiveness
+- [x] **Enhanced Noise Reduction** - Fixed dialog issues, improved performance, and seamless layer integration
+- [x] **18 Professional Blend Modes** - Complete blend mode system including HSL-based modes for creative processing
+- [x] **Smart Caching System** - Intelligent result caching with hash-based validation for optimal performance
+- [x] **Dialog Optimization** - Eliminated startup delays with deferred initialization and direct index assignment
+
+### Completed in v1.3.0 ✅
 - [x] **Advanced Project File System** - Complete .vino project format with layer preservation and metadata tracking
 - [x] **Professional Export System** - Advanced export dialog with format-specific options and quality control
 - [x] **Enhanced User Interface** - Streamlined menu system and logical toolbar organization
