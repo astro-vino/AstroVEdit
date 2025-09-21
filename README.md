@@ -9,7 +9,7 @@
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.2.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.3.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
@@ -21,7 +21,38 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 <img width="3047" height="2038" alt="image" src="https://github.com/user-attachments/assets/263f7e7d-6c69-4d7e-b222-c7d1da366d77" />
 
 
-## 🆕 What's New in v1.2.0
+## 🆕 What's New in v1.3.0
+
+### 🗂️ **Advanced Project File System (.vino)**
+- **Complete Layer Preservation** - Save and restore entire layer stacks with exact parameter values
+- **Layer Mask Support** - Full luminosity mask serialization with all settings (levels, blur, invert)
+- **Image Layer Support** - Preserves GraXpert, StarNet, and other processed image layers
+- **Metadata Tracking** - Project creation/modification dates and AstroVEdit version compatibility
+- **Compressed Storage** - ZIP-based format for efficient file size with organized internal structure
+- **Professional Workflow** - Non-destructive project management comparable to Photoshop PSD files
+
+### 📤 **Professional Export System**
+- **Advanced Format Support** - Export to JPEG, PNG, TIFF, BMP, FITS, and XISF with format-specific options
+- **Quality Control** - JPEG quality presets (Low 30%, Medium 60%, High 80%, Maximum 95%) plus custom slider (1-100%)
+- **TIFF Options** - LZW/ZIP/None compression, 8-bit/16-bit color depth, metadata embedding
+- **PNG Optimization** - Fast/Default/Best compression levels with interlaced option
+- **Real-time Preview** - File size estimation updates as settings change
+- **Professional UI** - Format-specific settings panels with dynamic control visibility
+
+### 🔧 **Enhanced User Interface**
+- **Streamlined Menu System** - "Save Project" replaces confusing dual save options
+- **Logical Toolbar** - Save Project and Export As buttons with consistent steel blue styling
+- **Format-Aware Dialogs** - Export dialog adapts to show relevant options for each format
+- **Size Display** - Read-only image dimensions instead of confusing editable fields
+- **Clean Organization** - Removed unnecessary area selection options
+
+### 🐛 **Critical XISF Compatibility Fixes**
+- **Layer Mask Support** - Fixed layer mask creation and preview for 16-bit XISF files
+- **Pixel Format Handling** - Proper RGB48 format support in mask blending system
+- **Viewport Corruption Fix** - Eliminated purple artifacts when using masked adjustment layers
+- **16-bit Processing** - Correct handling of 16-bit per channel data throughout the pipeline
+
+## 🔄 What Was New in v1.2.0
 
 ### 🗂️ **Complete File Association System**
 - **Native .vino Project Files** - Double-click .vino files to open projects directly in AstroVEdit
@@ -277,7 +308,7 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ### Installation
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.2.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
+1. Download the latest `AstroVEdit-1.3.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
 2. Run the installer as Administrator
 3. Follow the installation wizard
 4. **File Associations**: Installer automatically registers .vino project files and adds "Open with AstroVEdit" to image context menus
@@ -541,7 +572,14 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ## 📋 Roadmap
 
-### Recently Completed in v1.2.0 ✅
+### Recently Completed in v1.3.0 ✅
+- [x] **Advanced Project File System** - Complete .vino project format with layer preservation and metadata tracking
+- [x] **Professional Export System** - Advanced export dialog with format-specific options and quality control
+- [x] **Enhanced User Interface** - Streamlined menu system and logical toolbar organization
+- [x] **XISF Compatibility Fixes** - Fixed layer mask support and viewport corruption for 16-bit XISF files
+- [x] **Format-Aware Processing** - Proper handling of RGB48, BGRA32, and BGR24 pixel formats throughout the pipeline
+
+### Completed in v1.2.0 ✅
 - [x] **Complete File Association System** - Native .vino project files with Windows integration and custom icons
 - [x] **Advanced Project Management** - Seamless loading, enhanced save dialogs, and progress bar improvements
 - [x] **Professional Noise Reduction** - Five advanced algorithms with star protection and chrominance-only mode
