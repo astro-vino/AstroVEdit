@@ -9,7 +9,7 @@
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.4.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.5.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
@@ -21,7 +21,25 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 <img width="3047" height="2038" alt="image" src="https://github.com/user-attachments/assets/263f7e7d-6c69-4d7e-b222-c7d1da366d77" />
 
 
-## 🆕 What's New in v1.4.0
+## 🆕 What's New in v1.5.0
+
+### 🗂️ **Enhanced File Explorer**
+- **Streamlined Interface** - Removed non-functional toggle view button for cleaner, more focused file browsing
+- **Reliable Folder Memory** - Fixed folder memory system to properly remember and restore your last browsing location
+- **Improved Initialization** - Enhanced startup timing ensures folder memory works consistently across application restarts
+- **Debug Logging** - Added comprehensive logging for troubleshooting file explorer navigation issues
+
+### 🎨 **User Interface Refinements**
+- **Cleaner Navigation** - Simplified file explorer controls focusing on essential functionality
+- **Better Responsiveness** - Improved file explorer loading with proper event handling
+- **Enhanced Debugging** - Better diagnostic information for file system operations
+
+### 🐛 **Bug Fixes & Stability**
+- **File Explorer Memory** - Fixed issue where last folder wasn't properly restored on application startup
+- **UI Cleanup** - Removed unused view toggle functionality that provided no actual functionality
+- **Initialization Timing** - Improved component loading order to ensure proper folder memory restoration
+
+## 🔄 What Was New in v1.4.0
 
 ### 🌌 **Professional Narrowband Processing System**
 - **PixInsight-Style Interface** - Complete narrowband processing dialog matching PixInsight's NarrowbandNormalization tool
@@ -339,7 +357,7 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ### Installation
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.4.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
+1. Download the latest `AstroVEdit-1.5.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
 2. Run the installer as Administrator
 3. Follow the installation wizard
 4. **File Associations**: Installer automatically registers .vino project files and adds "Open with AstroVEdit" to image context menus
@@ -603,7 +621,13 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ## 📋 Roadmap
 
-### Recently Completed in v1.4.0 ✅
+### Recently Completed in v1.5.0 ✅
+- [x] **Enhanced File Explorer** - Streamlined interface with reliable folder memory and improved initialization
+- [x] **UI Refinements** - Cleaner navigation controls and better responsiveness
+- [x] **Bug Fixes** - Fixed file explorer memory system and removed non-functional UI elements
+- [x] **Improved Debugging** - Enhanced logging and diagnostic information for better troubleshooting
+
+### Completed in v1.4.0 ✅
 - [x] **Professional Narrowband Processing** - Complete PixInsight-style narrowband system with 12 palettes and advanced controls
 - [x] **Performance Revolution** - Instant dialog loading, optimized ComboBox selection, and improved slider responsiveness
 - [x] **Enhanced Noise Reduction** - Fixed dialog issues, improved performance, and seamless layer integration
