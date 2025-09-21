@@ -24,12 +24,6 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 
 ## 🆕 What's New in v1.5.0
 
-### 🗂️ **Enhanced File Explorer**
-- **Streamlined Interface** - Removed non-functional toggle view button for cleaner, more focused file browsing
-- **Reliable Folder Memory** - Fixed folder memory system to properly remember and restore your last browsing location
-- **Improved Initialization** - Enhanced startup timing ensures folder memory works consistently across application restarts
-- **Debug Logging** - Added comprehensive logging for troubleshooting file explorer navigation issues
-
 ### 🎨 **User Interface Refinements**
 - **Cleaner Navigation** - Simplified file explorer controls focusing on essential functionality
 - **Better Responsiveness** - Improved file explorer loading with proper event handling
