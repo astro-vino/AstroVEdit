@@ -43,7 +43,7 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 ## 🔄 What Was New in v1.4.0
 
 ### 🌌 **Professional Narrowband Processing System**
-- **PixInsight-Style Interface** - Complete narrowband processing dialog matching PixInsight's NarrowbandNormalization tool
+
 - **12 Authentic Palettes** - SHO (Hubble), HOO, HSO, HOS, OSH, OHS, OSS, OHH, HSS, Foraxx, Realistic 1 & 2
 - **Advanced Channel Controls** - SCNR, OIII Boost, SII Boost with professional parameter ranges
 - **Synthetic Green Blend** - 4 blend modes (Average, Geometric, Maximum, Minimum) with adjustable amount
