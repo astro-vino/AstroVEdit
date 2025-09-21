@@ -178,7 +178,8 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 - **StarNet Integration** - Complete StarNet plugin with layer-based workflow for star removal and mask generation
 - **GraXpert Integration** - Background extraction and AI denoising with layer-based output
 
-<img width="3045" height="2039" alt="image" src="https://github.com/user-attachments/assets/e367e84f-e2a6-4300-8b7a-7b4248173f05" />
+<img width="3837" height="2158" alt="image" src="https://github.com/user-attachments/assets/01b97261-617b-4d60-89f7-495667c91a28" />
+
 
 
 ### 🎨 **Enhanced User Interface**
