@@ -18,7 +18,8 @@ AstroVEdit is an astronomical image editing application designed specifically fo
 
 Featuring a complete suite of adjustment layers, advanced plugin integrations, specialized astrophotography tools, and seamless file association system, AstroVEdit delivers high-quality processing with an intuitive, modern interface designed for amateur astronomers and astrophotographers.
 
-<img width="3047" height="2038" alt="image" src="https://github.com/user-attachments/assets/263f7e7d-6c69-4d7e-b222-c7d1da366d77" />
+<img width="3066" height="1901" alt="image" src="https://github.com/user-attachments/assets/0cd90956-cdbd-4129-a723-1a766f1b570b" />
+
 
 
 ## 🆕 What's New in v1.5.0
