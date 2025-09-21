@@ -230,18 +230,6 @@ Professional star re-addition tool for astrophotography workflows:
 ### 🌌 **Astrophotography Presets**
 Narrowband and broadband color palettes used by the astrophotography community:
 
-#### **Narrowband Palettes**
-- **SHO (Hubble Palette)** - Classic red/orange nebula colors using Sulfur-II, Hydrogen-alpha, Oxygen-III mapping
-- **HOO Natural** - Natural-looking narrowband with enhanced star colors and H-beta simulation
-- **HSO Palette** - Alternative narrowband mapping for different aesthetic results
-- **HOS Palette** - Hydrogen-Oxygen-Sulfur combination for unique color rendition
-- **Dynamic SHO** - Enhanced SHO with improved star color handling
-
-#### **Broadband & Artistic Palettes**
-- **Realistic 1 & 2** - Natural color enhancement for broadband RGB images
-- **Foraxx Palette** - Popular warm-toned palette with enhanced oranges and gold tones
-- **Teal & Orange** - Cinematic color grading adapted for astrophotography
-
 ### 🔧 **Features**
 - **Layer Management System** - Organize adjustments in a layer stack with show/hide controls
 - **Layer Reordering** - Move layers up/down with buttons or Ctrl+Up/Down keyboard shortcuts
@@ -267,6 +255,9 @@ Narrowband and broadband color palettes used by the astrophotography community:
 - **Pan Navigation** - Right Mouse Button + Drag to pan around large images
 - **Fit to Window** - Automatic image scaling for optimal viewing
 - **Viewport** - Smooth scrolling and responsive image manipulation
+
+<img width="3836" height="2159" alt="image" src="https://github.com/user-attachments/assets/8b344dab-875a-4873-b7a4-2bd3b6970da0" />
+
 
 ### 🔌 **Plugin System**
 
