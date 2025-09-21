@@ -9,20 +9,55 @@
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.1.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.2.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
 
 AstroVEdit is an astronomical image editing application designed specifically for processing FITS (Flexible Image Transport System) files and other astronomical image formats. Built with WPF and .NET 9, it provides comprehensive tools for astrophotographers and astronomers to enhance and analyze their celestial captures with industry-standard workflows and performance optimizations.
 
-Featuring a complete suite of adjustment layers, advanced plugin integrations, and specialized astrophotography tools, AstroVEdit delivers high-quality processing with an intuitive, modern interface designed for amateur astronomers and astrophotographers.
+Featuring a complete suite of adjustment layers, advanced plugin integrations, specialized astrophotography tools, and seamless file association system, AstroVEdit delivers high-quality processing with an intuitive, modern interface designed for amateur astronomers and astrophotographers.
 
-<img width="3225" height="2055" alt="image" src="https://github.com/user-attachments/assets/1f8ea61b-5a44-4c09-b73d-c69b433cef5d" />
+<img width="3047" height="2038" alt="image" src="https://github.com/user-attachments/assets/263f7e7d-6c69-4d7e-b222-c7d1da366d77" />
 
 
+## 🆕 What's New in v1.2.0
 
-## 🆕 What's New in v1.1.0
+### 🗂️ **Complete File Association System**
+- **Native .vino Project Files** - Double-click .vino files to open projects directly in AstroVEdit
+- **Windows Integration** - Full file association with custom icons and "Open with AstroVEdit" context menus
+- **Command-Line Support** - Launch AstroVEdit with file paths for automation and scripting
+- **Drag & Drop Enhancement** - Drop both .vino project files and images directly onto the application
+- **Smart File Handling** - Automatic detection of file types with appropriate loading methods
+
+### 🔄 **Advanced Project Management**
+- **Seamless Project Loading** - Projects load with automatic image fitting and enabled save functionality
+- **Enhanced Save Dialogs** - Custom styled confirmation dialogs with appropriate language ("Update" vs "Delete")
+- **Progress Bar Improvements** - Smooth animated progress indicators during save/load operations
+- **Thread-Safe Operations** - Reliable project operations without threading exceptions
+- **Auto-Fit on Load** - Projects automatically fit to viewport for optimal viewing
+
+### 🎯 **Professional Noise Reduction System**
+- **Five Advanced Algorithms** - Gaussian, Median, Bilateral, Edge Preserving, and Adaptive noise reduction
+- **Astrophotography-Focused** - Star protection system with adjustable threshold (0.1-1.0)
+- **Chrominance-Only Mode** - Preserve luminance details while reducing color noise
+- **Real-Time Preview** - Dual-timer system for responsive slider feedback
+- **Professional Controls** - Method selection, strength, radius, threshold with dynamic UI
+- **Performance Optimized** - Intelligent caching and fast preview integration
+
+### 🌟 **Enhanced Star Reduction Tools**
+- **Multiple Reduction Methods** - Transfer, Halo, Star, and Lightness algorithms for different star types
+- **Advanced Protection** - Configurable star protection to preserve natural star appearance
+- **Real-Time Feedback** - Instant preview with optimized rendering during adjustments
+- **Professional Integration** - Seamless layer system integration with undo/redo support
+
+### 🎨 **Improved User Experience**
+- **Streamlined Dialogs** - Removed unnecessary confirmation popups for cleaner workflow
+- **Consistent Styling** - All dialogs match AstroVEdit's Material Design theme
+- **Better Progress Feedback** - Visible progress bars with smooth animation throughout operations
+- **Enhanced File Dialogs** - Custom overwrite confirmations with context-appropriate messaging
+
+## 🔄 What Was New in v1.1.0
 
 ### ⚡ **Performance Revolution**
 - **Ultra-Fast Slider Response** - Eliminated lag with lookup table optimization and fast preview mode
@@ -39,7 +74,7 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, a
 - **Visual Feedback** - Optional red overlay to visualize mask areas on the main viewport
 - **Performance Optimized** - Intelligent caching and fast preview mode for smooth editing experience
 
-<img width="3217" height="2052" alt="image" src="https://github.com/user-attachments/assets/57201985-88aa-4910-bbca-a11233e24b60" />
+<img width="3043" height="2038" alt="image" src="https://github.com/user-attachments/assets/8ff517d2-28ac-4de3-adc1-04748a23e3fb" />
 
 
 ### 🌟 **Star Analysis Tools**
@@ -106,7 +141,7 @@ Professional star re-addition tool for astrophotography workflows:
 - **Real-Time Preview** - Instant feedback with optimized rendering during adjustments
 - **StarNet Integration** - Perfect companion to StarNet-generated star images and masks
 
-<img width="3223" height="2049" alt="image" src="https://github.com/user-attachments/assets/e3a4a6f0-4598-4491-b678-7fdf2970b69b" />
+<img width="3046" height="2036" alt="image" src="https://github.com/user-attachments/assets/2ba70ebb-6f2b-4baa-8ba9-856e8636373b" />
 
 
 ### 🌌 **Astrophotography Presets**
@@ -242,10 +277,11 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ### Installation
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.1.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
+1. Download the latest `AstroVEdit-1.2.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
 2. Run the installer as Administrator
 3. Follow the installation wizard
-4. Launch AstroVEdit from Start Menu or Desktop shortcut
+4. **File Associations**: Installer automatically registers .vino project files and adds "Open with AstroVEdit" to image context menus
+5. Launch AstroVEdit from Start Menu or Desktop shortcut
 
 #### GraXpert Plugin Setup (Optional)
 1. Download and install [GraXpert](https://github.com/Steffenhir/GraXpert) from the official repository
@@ -258,16 +294,16 @@ Complete StarNet plugin integration for star removal and mask generation:
 ### Quick Start Guide
 
 #### Basic Workflow
-1. **Open an Image**: File → Open Recent (right-expanding menu) or drag-and-drop a FITS file
+1. **Open an Image**: Double-click .vino project files, File → Open Recent (right-expanding menu), or drag-and-drop FITS files or .vino projects
 2. **Navigate the Image**: Use `Ctrl + Mouse Wheel` to zoom, `Right Mouse + Drag` to pan
-3. **Add Adjustments**: Use the Adjustments panel to add enhancement layers
+3. **Add Adjustments**: Use the Adjustments panel to add enhancement layers including new Noise Reduction
 4. **Experience Fast Preview**: Notice the orange "FAST PREVIEW" indicator during slider adjustments
 5. **Apply Presets**: Try astrophotography presets for quick results
 6. **Fine-tune Settings**: Click the gear icon next to any adjustment to modify parameters
 7. **Layer Management**: Use show/hide toggles to compare before/after results
 8. **Analyze Stars**: Use Analysis → Star Analysis for focus quality assessment
 9. **Monitor Changes**: Watch the real-time histogram and preview updates
-10. **Save Your Work**: File → Save to preserve your edited image
+10. **Save Your Work**: File → Save Project to preserve your complete editing session as .vino file
 
 #### Advanced Astrophotography Workflow
 1. **Load Your Image**: Open FITS, TIFF, or other astronomical image formats
@@ -285,6 +321,188 @@ Complete StarNet plugin integration for star removal and mask generation:
 13. **Export Analysis Data**: Export star analysis to CSV for record keeping
 14. **Export Final Image**: Save in your preferred format with all adjustments applied
 
+
+
+
+### **🆕 v1.2.0 Feature Showcase**
+
+#### **🗂️ File Association & Project Management**
+1. **Windows Explorer Integration** - Capture Windows Explorer showing:
+   - .vino project files with custom AstroVEdit icons
+   - Right-click context menu with "Open with AstroVEdit" option
+   - File association working when double-clicking .vino files
+
+2. **Drag & Drop Excellence** - Show enhanced drag and drop functionality:
+   - Drag overlay displaying "Drop file here" with "Supports .vino projects and images"
+   - Format list showing "FITS, JPEG, PNG, BMP, TIFF, VINO"
+   - Successful drop of both image files and .vino project files
+
+3. **Project Loading Workflow** - Demonstrate seamless project loading:
+   - Progress bar with smooth animation during project load
+   - Auto-fit to viewport after loading (showing full image properly fitted)
+   - Enabled save buttons and menu items after project loads
+   - Console output showing successful project loading messages
+
+4. **Enhanced Save Dialogs** - Capture improved save experience:
+   - Custom styled "Update Project File" confirmation dialog
+   - "Update" and "Cancel" buttons (not "Delete")
+   - Progress bar animation during save operations
+   - Professional styling matching AstroVEdit theme
+
+#### **🎯 Noise Reduction System**
+5. **Professional Noise Reduction Interface** - Show comprehensive noise reduction dialog:
+   - Method dropdown with all 5 algorithms (Gaussian, Median, Bilateral, Edge Preserving, Adaptive)
+   - Dynamic controls showing/hiding based on selected method
+   - Star protection controls with threshold slider
+   - Chrominance-only processing option
+   - Real-time preview toggle and method descriptions
+
+6. **Noise Reduction in Action** - Demonstrate noise reduction effectiveness:
+   - Before/after comparison showing noise reduction results
+   - Star protection preserving star details while reducing background noise
+   - Different algorithms applied to same image showing varied results
+   - Layer integration with noise reduction as adjustment layer
+
+#### **🌟 Star Reduction Tools**
+7. **Advanced Star Reduction** - Capture star reduction capabilities:
+   - Star Reduction dialog with 4 methods (Transfer, Halo, Star, Lightness)
+   - Protection controls preserving natural star appearance
+   - Before/after showing controlled star size reduction
+   - Real-time preview with fast feedback during adjustments
+
+### **🎯 Primary Interface Showcase**
+1. **Complete Workspace Overview** - Load a stunning nebula image (M42, Rosette, or Eagle Nebula) with:
+   - Multiple adjustment layers visible in layers panel (Curves, Levels, Color Balance, SCNR)
+   - Real-time histogram displaying RGB channels with logarithmic scaling
+   - Orange "FAST PREVIEW" indicator active during slider adjustment
+   - Channel panel showing RGB composite controls
+   - Console output showing processing feedback
+
+2. **Professional Layer Stack** - Demonstrate complex layer hierarchy:
+   - Background layer (padlocked) at bottom
+   - GraXpert background-extracted layer
+   - StarNet Starless and StarNet Extracted Stars layers
+   - Multiple adjustment layers with orange mask indicators
+   - "Flattened Layer" showing eye icon (not padlock)
+   - **Highlight all layer control buttons**: Add, Mask, Move Up/Down, Flatten, Delete
+
+3. **Advanced Layer Operations** - Show professional workflow in action:
+   - Multi-selected layers (Ctrl+Click) with Flatten button enabled
+   - Layer reordering with Move Up/Down buttons and smart button states
+   - Layer mask editing dialog with red overlay on main image
+   - Confirmation dialogs with proper "Flatten" button text
+
+### **🔬 Advanced Processing Tools**
+4. **Star Analysis Excellence** - Capture the non-modal star analysis dialog with:
+   - Interactive star selection on main image (click stars to highlight in grid)
+   - Sortable data grid showing FWHM, SNR, and quality metrics
+   - Real-time focus quality calculation and statistics
+   - CSV export functionality for data analysis
+
+5. **Professional Masking Workflow** - Demonstrate luminosity masking power:
+   - Layer mask dialog with levels controls (Input Black/White, Gamma)
+   - Gaussian blur slider (0-20 pixels) for mask softening
+   - Red overlay visualization showing mask areas on main image
+   - Before/after comparison with mask toggle
+
+6. **Specialized Astrophotography Tools** - Show dedicated processing features:
+   - Star Reduction with 4 methods and protection controls
+   - Add Stars layer with blend modes and enhancement options
+   - Remove Magenta with 5 algorithms and star protection
+   - SCNR with protection methods and real-time preview
+
+### **🔌 Plugin Integration Excellence**
+7. **GraXpert Professional Integration** - Showcase seamless plugin workflow:
+   - Auto-detection of installation paths
+   - Background extraction with AI model selection
+   - Denoising controls with GPU acceleration options
+   - Layer-based output preserving non-destructive workflow
+
+8. **StarNet Complete Workflow** - Demonstrate star removal mastery:
+   - Installation detection and Python environment setup
+   - Star removal processing with progress feedback
+   - Automatic layer creation (Starless, Extracted Stars, Mask)
+   - Integration with Add Stars layer for selective re-addition
+
+### **⚡ Performance & UI Excellence**
+9. **Ultra-Fast Preview System** - Capture performance optimizations:
+   - Orange "FAST PREVIEW" indicator during slider adjustments
+   - Lookup table optimization for instant gamma correction
+   - Reduced resolution rendering for real-time feedback
+   - Smooth slider response with visual feedback
+
+10. **Professional Dialog System** - Show consistent Material Design:
+    - Custom styled dialogs (Information, Warning, Error, Confirmation)
+    - Dark theme consistency across all interfaces
+    - Orange signature highlighting and accent colors
+    - Proper button labeling ("Flatten" not "Delete" for layer operations)
+
+### **🎨 Layer Management Mastery**
+11. **Complete Layer Control Interface** - Detailed view of layer panel showing:
+    - All layer control buttons with tooltips: Add (+), Mask (○), Move Up (↑), Move Down (↓), Flatten (⧉), Delete (🗑)
+    - Smart button states (enabled/disabled based on selection and position)
+    - Layer type indicators (padlock for base, eye for toggleable layers)
+    - Orange mask indicators for layers with active masks
+
+12. **Multi-Selection Flattening** - Step-by-step flattening demonstration:
+    - Multiple layers selected with Ctrl+Click (highlight selection)
+    - Flatten button enabled with proper tooltip
+    - Confirmation dialog showing layers to be flattened with "Flatten" button
+    - Resulting "Flattened Layer" with eye icon (not padlock)
+
+13. **Layer Reordering Precision** - Show intelligent reordering system:
+    - Move Up/Down buttons with keyboard shortcut tooltips
+    - Smart button states preventing invalid moves
+    - Base layer protection (Move Down disabled when appropriate)
+    - Layer selection preservation after moving
+
+14. **Base Layer Protection** - Demonstrate foundational layer security:
+    - Padlocked Background layer at bottom of stack
+    - Disabled buttons when base layer selected
+    - Warning dialogs when attempting invalid operations
+    - Clear visual distinction between base and processed layers
+
+### **🌌 Astrophotography Workflow Excellence**
+15. **Narrowband Palette Mastery** - Show dramatic color transformations:
+    - SHO (Hubble) palette application with before/after split
+    - HOO Natural palette for realistic narrowband results
+    - Dynamic color grading with real-time preview
+    - Channel combination techniques for optimal results
+
+16. **Professional Processing Chain** - Complete workflow demonstration:
+    - Original FITS file → GraXpert background extraction → StarNet processing
+    - → Narrowband palette application → Selective masking → Layer optimization
+    - → Final export with all processing stages visible in layer stack
+
+17. **Quality Results Showcase** - Final processed images demonstrating:
+    - Deep sky objects with enhanced detail and color
+    - Proper star color preservation and enhancement
+    - Noise reduction while maintaining fine detail
+    - Professional-grade results comparable to commercial software
+
+### **💡 Advanced Techniques for Users to Try**
+
+#### **🎯 Layer Stack Optimization Techniques:**
+- **Performance Boost**: Flatten multiple adjustment layers after fine-tuning to improve rendering speed
+- **Selective Processing**: Use layer masks to apply different adjustments to stars vs nebulosity
+- **Non-Destructive Workflow**: Keep original layers hidden but preserved for future adjustments
+- **Layer Organization**: Group related adjustments and flatten them into logical processing stages
+
+#### **🔧 Professional Masking Workflows:**
+- **Luminosity Separation**: Create masks from current viewport to separate bright and dark regions
+- **Star Protection**: Use inverted masks to protect stars during nebula enhancement
+- **Gradient Masks**: Apply blur to masks for smooth transitions between processed areas
+- **Mask Refinement**: Use levels controls to fine-tune mask contrast and coverage
+
+#### **⚡ Performance Optimization Tips:**
+- **Fast Preview Mode**: Watch for orange indicator during adjustments for optimal responsiveness
+- **Layer Flattening**: Collapse complex adjustment stacks to reduce computational overhead
+- **Selective Rendering**: Toggle layer visibility to isolate processing effects and improve performance
+- **Cache Management**: Understand how layer changes invalidate cache for efficient workflow planning
+
+
+
+## 🛠️ Development
 
 ### Technology Stack
 - **Framework:** .NET 9.0 with WPF
@@ -307,19 +525,33 @@ Complete StarNet plugin integration for star removal and mask generation:
 - **LayerMaskDialog** - Advanced mask editing interface with real-time preview and performance optimization
 - **AstroPaletteProcessor** - Authentic narrowband channel combination engine
 - **StarDetector** - Advanced star detection with FWHM measurement and quality assessment
-- **StarReductionAdjustmentLayer** - Star size reduction with 4 methods
+- **StarReductionAdjustmentLayer** - Star size reduction with 4 methods and advanced protection
+- **NoiseReductionAdjustmentLayer** - Professional noise reduction with 5 algorithms and star protection
 - **AddStarsAdjustmentLayer** - Professional star blending with multiple blend modes and enhancement controls
 - **RemoveMagentaAdjustmentLayer** - Comprehensive magenta cast removal with 5 algorithms
 - **SCNRAdjustmentLayer** - Color noise reduction with 5 protection methods
 - **GraXpertDialog** - Plugin integration interface with layer-based output
 - **StarNetDialog** - Complete StarNet integration with auto-detection and layer workflow
+- **ProjectManager** - .vino project file handling with seamless save/load operations
+- **FileAssociationSystem** - Windows integration with custom icons and context menus
 - **RecentFilesManager** - Persistent recent files with automatic cleanup and file type detection
 - **FastPreviewSystem** - Reduced resolution rendering for real-time slider feedback
 - **InformationDialog** - Custom styled dialogs replacing standard Windows MessageBox
+- **ConfirmationDialog** - Professional confirmation dialogs with context-appropriate messaging
 
 ## 📋 Roadmap
 
-### Recently Completed in v1.1.0 ✅
+### Recently Completed in v1.2.0 ✅
+- [x] **Complete File Association System** - Native .vino project files with Windows integration and custom icons
+- [x] **Advanced Project Management** - Seamless loading, enhanced save dialogs, and progress bar improvements
+- [x] **Professional Noise Reduction** - Five advanced algorithms with star protection and chrominance-only mode
+- [x] **Enhanced Star Reduction** - Multiple reduction methods with advanced protection controls
+- [x] **Improved User Experience** - Streamlined dialogs, consistent styling, and better progress feedback
+- [x] **Command-Line Support** - Launch AstroVEdit with file paths for automation and scripting
+- [x] **Drag & Drop Enhancement** - Support for both .vino project files and images with updated overlay
+- [x] **Thread-Safe Operations** - Reliable project operations without threading exceptions
+
+### Completed in v1.1.0 ✅
 - [x] **Performance Revolution** - Ultra-fast slider response with lookup table optimization
 - [x] **Layer Masks** - Luminosity-based selective adjustments with advanced controls
 - [x] **Star Analysis Tools** - FWHM measurement and focus quality assessment with interactive selection
@@ -374,7 +606,10 @@ Found a bug or have a feature request? Please create an issue on our [GitHub Iss
 ### File Operations
 - **Open File**: `Ctrl` + `O`
 - **Save File**: `Ctrl` + `S`
+- **Save Project**: File → Save Project (saves as .vino file)
+- **Open Project**: File → Open Project or double-click .vino files
 - **Recent Files**: File → Open Recent (right-expanding submenu)
+- **Drag & Drop**: Drop .vino projects or images directly onto application
 
 ### Layer Management
 - **Toggle Layer Visibility**: Click eye icon next to layer
@@ -393,6 +628,8 @@ Found a bug or have a feature request? Please create an issue on our [GitHub Iss
 - **Star Analysis**: Analysis → Star Analysis (non-modal dialog with interactive star selection)
 - **FITS Header**: View → FITS Header
 - **Image Information**: View → Image Information
+- **Noise Reduction**: Right-click "+" → Noise Reduction (5 algorithms with star protection)
+- **Star Reduction**: Right-click "+" → Star Reduction (4 methods with protection controls)
 - **GraXpert**: Plugins → GraXpert (background extraction and denoising)
 - **StarNet**: Plugins → StarNet (star removal and mask generation)
 - **SCNR**: Plugins → SCNR Tool (subtractive chromatic noise reduction)
