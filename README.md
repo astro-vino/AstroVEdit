@@ -172,7 +172,8 @@ Professional star re-addition tool for astrophotography workflows:
 - **Real-Time Preview** - Instant feedback with optimized rendering during adjustments
 - **StarNet Integration** - Perfect companion to StarNet-generated star images and masks
 
-<img width="3046" height="2036" alt="image" src="https://github.com/user-attachments/assets/2ba70ebb-6f2b-4baa-8ba9-856e8636373b" />
+<img width="2876" height="1779" alt="image" src="https://github.com/user-attachments/assets/9bf383b1-526a-4715-a091-f1b523d19073" />
+
 
 
 ### 🌌 **Astrophotography Presets**
