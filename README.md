@@ -154,7 +154,8 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 - **Visual Feedback** - Optional red overlay to visualize mask areas on the main viewport
 - **Performance Optimized** - Intelligent caching and fast preview mode for smooth editing experience
 
-<img width="3043" height="2038" alt="image" src="https://github.com/user-attachments/assets/8ff517d2-28ac-4de3-adc1-04748a23e3fb" />
+<img width="3058" height="1893" alt="image" src="https://github.com/user-attachments/assets/92deba02-7f41-4a66-968c-0d420c44e9ae" />
+
 
 
 ### 🌟 **Star Analysis Tools**
