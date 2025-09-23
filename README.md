@@ -24,6 +24,15 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 
 ## 🆕 What's New in v1.6.0
 
+### 🌟 **New Professional Blur System**
+- **6 Advanced Blur Methods** - Gaussian, Box, Motion Blur, Radial Blur, Surface Blur, and Smart Blur algorithms
+- **Astrophotography-Focused** - Star protection system with adjustable threshold to preserve star details
+- **Creative Controls** - Motion blur with angle control (0-360°), radial blur from center point
+- **Edge-Preserving Options** - Surface blur and smart blur maintain important image details
+- **Luminance-Only Mode** - Apply blur to luminance channel only, preserving color information
+- **Real-Time Preview** - Fast preview mode with intelligent caching for smooth slider response
+- **Professional Integration** - Complete layer system integration with undo/redo support
+
 ### 🎨 **User Interface Streamlining**
 - **Simplified View Menu** - Removed redundant File Explorer menu option that was never used
 - **Cleaner Interface** - Streamlined menu system focusing on essential functionality
@@ -623,6 +632,9 @@ Complete StarNet plugin integration for star removal and mask generation:
 ## 📋 Roadmap
 
 ### Recently Completed in v1.6.0 ✅
+- [x] **Professional Blur System** - Complete blur adjustment layer with 6 advanced algorithms and star protection
+- [x] **Creative Blur Effects** - Motion blur, radial blur, surface blur, and smart blur for artistic processing
+- [x] **Astrophotography Integration** - Star protection and luminance-only processing for astronomical images
 - [x] **UI Streamlining** - Removed redundant File Explorer menu option for cleaner interface
 - [x] **Code Optimization** - Eliminated unused event handlers and simplified initialization
 - [x] **Enhanced Workflow** - File explorer now permanently available without menu complexity
