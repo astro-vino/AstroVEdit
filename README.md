@@ -68,6 +68,9 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 - **18 Professional Blend Modes** - Complete blend mode system including Luminosity, Color, Saturation, Hue
 - **Performance Optimized** - Intelligent caching, lookup tables, and fast preview mode
 
+<img width="3293" height="2070" alt="image" src="https://github.com/user-attachments/assets/0b66a71a-9d90-477b-a91d-5ca2eb9c5428" />
+
+
 ### 🔧 **Enhanced Noise Reduction**
 - **Fixed Dialog Issues** - Resolved DialogResult exceptions and layer creation problems
 - **Improved Performance** - Optimized processing algorithms with better caching
