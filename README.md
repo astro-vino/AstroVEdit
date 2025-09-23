@@ -9,7 +9,7 @@
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.5.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.6.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
@@ -22,7 +22,20 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 
 
 
-## 🆕 What's New in v1.5.0
+## 🆕 What's New in v1.6.0
+
+### 🎨 **User Interface Streamlining**
+- **Simplified View Menu** - Removed redundant File Explorer menu option that was never used
+- **Cleaner Interface** - Streamlined menu system focusing on essential functionality
+- **Always-Available File Explorer** - File explorer now permanently available without menu toggle
+- **Improved Workflow** - Eliminated unnecessary UI complexity for better user experience
+
+### 🐛 **Code Optimization**
+- **Reduced Complexity** - Removed unused event handlers and menu management code
+- **Better Initialization** - Simplified application startup with cleaner component loading
+- **Enhanced Maintainability** - Cleaner codebase with removed redundant functionality
+
+## 🔄 What Was New in v1.5.0
 
 ### 🎨 **User Interface Refinements**
 - **Cleaner Navigation** - Simplified file explorer controls focusing on essential functionality
@@ -345,7 +358,7 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ### Installation
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.5.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
+1. Download the latest `AstroVEdit-1.6.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
 2. Run the installer as Administrator
 3. Follow the installation wizard
 4. **File Associations**: Installer automatically registers .vino project files and adds "Open with AstroVEdit" to image context menus
@@ -609,7 +622,13 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ## 📋 Roadmap
 
-### Recently Completed in v1.5.0 ✅
+### Recently Completed in v1.6.0 ✅
+- [x] **UI Streamlining** - Removed redundant File Explorer menu option for cleaner interface
+- [x] **Code Optimization** - Eliminated unused event handlers and simplified initialization
+- [x] **Enhanced Workflow** - File explorer now permanently available without menu complexity
+- [x] **Maintainability** - Cleaner codebase with reduced unnecessary functionality
+
+### Completed in v1.5.0 ✅
 - [x] **Enhanced File Explorer** - Streamlined interface with reliable folder memory and improved initialization
 - [x] **UI Refinements** - Cleaner navigation controls and better responsiveness
 - [x] **Bug Fixes** - Fixed file explorer memory system and removed non-functional UI elements
