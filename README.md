@@ -4,34 +4,95 @@
 <img width="128" height="128" alt="FullColor_Logo-Only_Round" src="https://github.com/user-attachments/assets/a0a39cab-f5c9-4d49-9e31-36c1dcf6d8bd" />
 
 
-  **Astronomical Image Editing Software**
+  **Amateur Astronomical Image Editing Software**
 
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.6.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.7.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
 
-AstroVEdit is an astronomical image editing application designed specifically for processing astronomical image formats such as FITS (Flexible Image Transport System) files, XISF and others. Built with WPF and .NET 9, it provides comprehensive tools for astrophotographers and astronomers to enhance and analyze their celestial captures with industry-standard workflows and performance optimizations.
+AstroVEdit is an amateur astronomical image editing application designed specifically for processing astronomical image formats such as FITS (Flexible Image Transport System) files, XISF and others. Built with WPF and .NET 9, it provides comprehensive tools for astrophotographers and astronomers to enhance and analyze their celestial captures with industry-standard workflows and performance optimizations.
 
-Featuring a complete suite of adjustment layers, advanced plugin integrations, specialized astrophotography tools, and seamless file association system, AstroVEdit delivers high-quality processing with an intuitive, modern interface designed for amateur astronomers and astrophotographers.
+Featuring **multi-document management**, **advanced layer systems**, **LRGB combination tools**, **image blending capabilities**, **adjustment layers**, **plugin integrations**, and **specialized astrophotography tools**, AstroVEdit delivers high-quality processing with an intuitive, modern interface designed for amateur astrophotographers and astronomers.
 
 <img width="3066" height="1901" alt="image" src="https://github.com/user-attachments/assets/0cd90956-cdbd-4129-a723-1a766f1b570b" />
 
 
 
-## 🆕 What's New in v1.6.0
+## 🆕 What's New in v1.7.0
+
+### 🖼️ **Multi-Document Management System**
+- **Tabbed Interface** - Work with multiple images simultaneously in a tabbed environment
+- **Document Switching** - Seamless switching between open documents with preserved viewport states
+- **Tab Management** - Close, rename, and organize tabs with right-click context menus
+- **Memory Efficient** - Each document maintains its own layer stack, undo history, and processing state
+- **Drag & Drop Support** - Drop multiple images to open them as separate documents
+- **Smart Tab Display** - Tabs only appear when multiple documents are open, keeping single-image workflow clean
+
+### 🎨 **Advanced Image Blending System**
+- **Cross-Document Blending** - Blend images from different documents as adjustment layers
+- **18 Blend Modes** - Normal, Screen, Multiply, Overlay, Soft Light, Hard Light, Color Dodge, Linear Dodge, and more
+- **Real-Time Preview** - Instant feedback with opacity and blend mode adjustments
+- **Automatic Resizing** - Smart image resizing to match target document dimensions
+- **Layer Integration** - Full layer system integration with visibility controls and editing capabilities
+- **Context Menu Access** - Right-click tabs to copy images as blend layers to active document
+
+### 🌈 **LRGB Combination Tool**
+- **Advanced Channel Mapping** - Sophisticated L+RGB combination with multiple blend modes
+- **Luminance Integration** - 6 blend modes for luminance integration (Normal, Multiply, Screen, Overlay, Soft Light, Hard Light)
+- **Color Preservation** - Multiple color preservation methods (None, Luminosity, Color, Saturation)
+- **Saturation Control** - Fine-tune color saturation with 0-200% range
+- **Noise Reduction** - Built-in noise reduction specifically for LRGB workflows
+- **Real-Time Preview** - Live preview with before/after comparison
+- **New Document Creation** - Automatically creates new document with LRGB result
+
+### 📁 **Multi-Document Project Management**
+- **Enhanced .vino Projects** - Save and load projects with multiple documents
+- **Document Preservation** - Each document's complete state (layers, adjustments, viewport) preserved
+- **Active Document Tracking** - Remembers which document was active when project was saved
+- **Batch Loading** - Load multiple images and their processing states simultaneously
+- **Version Compatibility** - Backward compatible with single-document projects
+
+### 🏷️ **Tab Customization & Management**
+- **Tab Renaming** - Right-click tabs to rename with custom display names
+- **Smart Tab Titles** - Shows file names with modification indicators (*)
+- **Tab Context Menus** - Right-click menus with rename and copy options
+- **Tab Thumbnails** - Visual thumbnails for easy document identification
+- **Close Buttons** - Individual close buttons on each tab with unsaved changes protection
+
+### ⚡ **Auto-Stretch as Adjustment Layer**
+- **Layer-Based Auto-Stretch** - Auto-stretch now works as a proper adjustment layer
+- **Custom Parameters** - Shadow clip, highlight clip, and midpoint controls
+- **Non-Destructive** - Preserves original image data with layer-based processing
+- **Real-Time Adjustment** - Modify auto-stretch parameters after application
+- **Undo/Redo Support** - Full undo/redo integration with layer system
+
+### 🔧 **Enhanced User Interface**
+- **Multi-Document Toolbar** - Toolbar adapts to show document-specific information
+- **Window Title Updates** - Dynamic window titles showing active document and modification status
+- **Improved File Explorer** - Navigate between project files and images efficiently
+- **Status Indicators** - Clear visual feedback for document states and processing operations
+- **Responsive Layout** - Interface adapts seamlessly between single and multi-document modes
+
+### 🐛 **Stability & Performance Improvements**
+- **Memory Management** - Optimized memory usage for multiple open documents
+- **Viewport Preservation** - Accurate viewport state restoration when switching documents
+- **Layer System Optimization** - Improved layer rendering performance across documents
+- **Error Handling** - Robust error handling for document operations and file management
+
+## 🔄 What Was New in v1.6.0
 
 ### 🌟 **New Professional Blur System**
-- **6 Advanced Blur Methods** - Gaussian, Box, Motion Blur, Radial Blur, Surface Blur, and Smart Blur algorithms
+- **6 Blur Methods** - Gaussian, Box, Motion Blur, Radial Blur, Surface Blur, and Smart Blur algorithms
 - **Astrophotography-Focused** - Star protection system with adjustable threshold to preserve star details
 - **Creative Controls** - Motion blur with angle control (0-360°), radial blur from center point
 - **Edge-Preserving Options** - Surface blur and smart blur maintain important image details
 - **Luminance-Only Mode** - Apply blur to luminance channel only, preserving color information
 - **Real-Time Preview** - Fast preview mode with intelligent caching for smooth slider response
-- **Professional Integration** - Complete layer system integration with undo/redo support
+- **Layer Integration** - Complete layer system integration with undo/redo support
 
 ### 🎨 **User Interface Streamlining**
 - **Simplified View Menu** - Removed redundant File Explorer menu option that was never used
@@ -67,9 +128,6 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 - **Tonal Adjustments** - Shadow Point, Highlight Reduction, and Brightness controls
 - **18 Professional Blend Modes** - Complete blend mode system including Luminosity, Color, Saturation, Hue
 - **Performance Optimized** - Intelligent caching, lookup tables, and fast preview mode
-
-<img width="3293" height="2070" alt="image" src="https://github.com/user-attachments/assets/0b66a71a-9d90-477b-a91d-5ca2eb9c5428" />
-
 
 ### 🔧 **Enhanced Noise Reduction**
 - **Fixed Dialog Issues** - Resolved DialogResult exceptions and layer creation problems
@@ -136,19 +194,19 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 - **Thread-Safe Operations** - Reliable project operations without threading exceptions
 - **Auto-Fit on Load** - Projects automatically fit to viewport for optimal viewing
 
-### 🎯 **Professional Noise Reduction System**
+### 🎯 **Noise Reduction System**
 - **Five Advanced Algorithms** - Gaussian, Median, Bilateral, Edge Preserving, and Adaptive noise reduction
 - **Astrophotography-Focused** - Star protection system with adjustable threshold (0.1-1.0)
 - **Chrominance-Only Mode** - Preserve luminance details while reducing color noise
 - **Real-Time Preview** - Dual-timer system for responsive slider feedback
-- **Professional Controls** - Method selection, strength, radius, threshold with dynamic UI
+- **Advanced Controls** - Method selection, strength, radius, threshold with dynamic UI
 - **Performance Optimized** - Intelligent caching and fast preview integration
 
 ### 🌟 **Enhanced Star Reduction Tools**
 - **Multiple Reduction Methods** - Transfer, Halo, Star, and Lightness algorithms for different star types
 - **Advanced Protection** - Configurable star protection to preserve natural star appearance
 - **Real-Time Feedback** - Instant preview with optimized rendering during adjustments
-- **Professional Integration** - Seamless layer system integration with undo/redo support
+- **Layer Integration** - Seamless layer system integration with undo/redo support
 
 ### 🎨 **Improved User Experience**
 - **Streamlined Dialogs** - Removed unnecessary confirmation popups for cleaner workflow
@@ -211,9 +269,11 @@ Featuring a complete suite of adjustment layers, advanced plugin integrations, s
 
 ## ✨ Key Features
 
-### 🖼️ **Image Processing**
+### 🖼️ **Multi-Document Image Processing**
 - **FITS File Support** - Native support for .fits, .fit, and .fts astronomical image formats
 - **Multi-Format Support** - JPEG, PNG, TIFF, and other standard image formats
+- **Tabbed Interface** - Work with multiple images simultaneously in tabs
+- **Cross-Document Operations** - Copy, blend, and combine images between documents
 - **Non-Destructive Editing** - Layer-based adjustment system preserves original image data
 - **Real-Time Preview** - Instant feedback for all adjustments and modifications
 - **High Bit-Depth Processing** - Maintains astronomical image precision throughout editing
@@ -230,7 +290,7 @@ All adjustment tools now feature **ultra-responsive sliders** with real-time fas
 - **Selective Color** - Target specific color ranges (CMYK) with fast slider response and astrophotography presets
 
 #### **Add Stars Layer**
-Professional star re-addition tool for astrophotography workflows:
+Star re-addition tool for astrophotography workflows:
 
 - **Star Image Selection** - Browse for star images with intelligent folder detection (starts in original image folder)
 - **Multiple Blend Modes** - Screen, Linear Dodge, Lighten, Color Dodge, Soft Light, Overlay, Normal for different star effects
@@ -249,7 +309,11 @@ Professional star re-addition tool for astrophotography workflows:
 ### 🌌 **Astrophotography Presets**
 Narrowband and broadband color palettes used by the astrophotography community:
 
-### 🔧 **Features**
+### 🔧 **Advanced Features**
+- **Multi-Document Management** - Tabbed interface for working with multiple images
+- **Tab Customization** - Rename tabs, close individual documents, and organize your workspace
+- **Cross-Document Blending** - Copy images between documents as blend layers with 18 blend modes
+- **LRGB Combination Tool** - Luminance+color combination with advanced controls
 - **Layer Management System** - Organize adjustments in a layer stack with show/hide controls
 - **Layer Reordering** - Move layers up/down with buttons or Ctrl+Up/Down keyboard shortcuts
 - **Layer Flattening** - Multi-select layers and collapse them into a single "Flattened Layer"
@@ -258,14 +322,17 @@ Narrowband and broadband color palettes used by the astrophotography community:
 - **Layer Masks** - Luminosity-based selective adjustments with levels, blur, and invert controls
 - **Mask Operations** - Copy, paste, and delete masks between layers with intuitive right-click menus
 - **Read-Only Layers** - Special layers (like GraXpert and StarNet processing) that preserve workflow integrity
-- **Add Stars Layer** - Professional star blending with multiple blend modes and enhancement controls
+- **Add Stars Layer** - Star blending with multiple blend modes and enhancement controls
+- **Auto-Stretch Layer** - Non-destructive auto-stretch as adjustment layer with custom parameters
+- **Image Blend Layers** - Image blending system with automatic resizing
 - **Channel Control** - Individual RGB composite channel visibility and manipulation
 - **Live Histogram Analysis** - Real-time RGB histogram with square root and logarithmic scaling
 - **Star Analysis Tools** - FWHM measurement and focus quality assessment with interactive selection
 - **Advanced Crop Tool** - Precise image cropping with visual guides and undo/redo
 - **FITS Header Viewer** - Examine astronomical metadata and capture information
 - **Image Information Dialog** - Comprehensive image statistics and technical details
-- **Undo/Redo System** - Comprehensive 20-level undo history for all operations
+- **Multi-Document Projects** - Save and load complete multi-document workflows as .vino projects
+- **Undo/Redo System** - Comprehensive 20-level undo history for all operations per document
 - **Enhanced Recent Files** - Right-expanding menu with file type icons and quick access
 - **Splash Screen** - Visual startup feedback with animated loading indicators
 
@@ -370,7 +437,7 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ### Installation
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.6.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
+1. Download the latest `AstroVEdit-1.7.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
 2. Run the installer as Administrator
 3. Follow the installation wizard
 4. **File Associations**: Installer automatically registers .vino project files and adds "Open with AstroVEdit" to image context menus
@@ -387,32 +454,36 @@ Complete StarNet plugin integration for star removal and mask generation:
 ### Quick Start Guide
 
 #### Basic Workflow
-1. **Open an Image**: Double-click .vino project files, File → Open Recent (right-expanding menu), or drag-and-drop FITS files or .vino projects
-2. **Navigate the Image**: Use `Ctrl + Mouse Wheel` to zoom, `Right Mouse + Drag` to pan
-3. **Add Adjustments**: Use the Adjustments panel to add enhancement layers including new Noise Reduction
-4. **Experience Fast Preview**: Notice the orange "FAST PREVIEW" indicator during slider adjustments
-5. **Apply Presets**: Try astrophotography presets for quick results
-6. **Fine-tune Settings**: Click the gear icon next to any adjustment to modify parameters
-7. **Layer Management**: Use show/hide toggles to compare before/after results
-8. **Analyze Stars**: Use Analysis → Star Analysis for focus quality assessment
-9. **Monitor Changes**: Watch the real-time histogram and preview updates
-10. **Save Your Work**: File → Save Project to preserve your complete editing session as .vino file
+1. **Open Images**: Drag-and-drop multiple images, use File → Open, or double-click .vino project files
+2. **Multi-Document Management**: Work with multiple images in tabs, rename tabs, and switch between documents
+3. **Navigate Images**: Use `Ctrl + Mouse Wheel` to zoom, `Right Mouse + Drag` to pan
+4. **Add Adjustments**: Use the Adjustments panel to add enhancement layers including Auto-Stretch as layer
+5. **Experience Fast Preview**: Notice the orange "FAST PREVIEW" indicator during slider adjustments
+6. **Apply Presets**: Try astrophotography presets for quick results
+7. **Image Blending**: Right-click tabs to copy images as blend layers between documents
+8. **LRGB Combination**: Use Tools → LRGB Combination for professional luminance+color workflows
+9. **Layer Management**: Use show/hide toggles, masks, and layer operations
+10. **Analyze Stars**: Use Analysis → Star Analysis for focus quality assessment
+11. **Monitor Changes**: Watch the real-time histogram and preview updates
+12. **Save Your Work**: File → Save Project to preserve your complete multi-document editing session
 
-#### Advanced Astrophotography Workflow
-1. **Load Your Image**: Open FITS, TIFF, or other astronomical image formats
-2. **Assess Image Quality**: Use Star Analysis to measure FWHM and focus quality with interactive star selection
-3. **Background Processing**: Apply GraXpert background extraction or denoising as separate layers
-4. **Star Processing**: Use StarNet for star removal and extracted stars generation, or Star Reduction for size control
-5. **Star Re-addition**: Use Add Stars layer with StarNet-extracted stars for selective star blending
-6. **Apply Narrowband Preset**: Choose SHO, HOO, or other palettes for instant color grading
-7. **Fine-tune with Optimized Layers**: Add Levels, Curves, or Color Balance with ultra-fast response
-8. **Create Selective Masks**: Right-click layers to add luminosity masks for targeted adjustments
-9. **Refine Mask Properties**: Use levels, blur, and invert controls for precise mask customization
-10. **Color Correction**: Use Remove Magenta or SCNR tools for color cast and noise reduction
-11. **Optimize Layer Stack**: Multi-select multiple adjustment layers and flatten them into single processed layers for performance
-12. **Compare Results**: Toggle layer visibility and mask overlays to compare processing stages
-13. **Export Analysis Data**: Export star analysis to CSV for record keeping
-14. **Export Final Image**: Save in your preferred format with all adjustments applied
+#### Advanced Multi-Document Astrophotography Workflow
+1. **Load Multiple Images**: Open L, R, G, B channels or multiple exposures as separate documents
+2. **Assess Image Quality**: Use Star Analysis on each document to measure FWHM and focus quality
+3. **LRGB Combination**: Use Tools → LRGB Combination to professionally combine luminance and color data
+4. **Background Processing**: Apply GraXpert background extraction or denoising as separate layers
+5. **Star Processing**: Use StarNet for star removal and extracted stars generation, or Star Reduction for size control
+6. **Cross-Document Blending**: Right-click tabs to copy processed images as blend layers between documents
+7. **Apply Narrowband Preset**: Choose SHO, HOO, or other palettes for instant color grading
+8. **Fine-tune with Optimized Layers**: Add Auto-Stretch, Levels, Curves, or Color Balance with ultra-fast response
+9. **Create Selective Masks**: Right-click layers to add luminosity masks for targeted adjustments
+10. **Refine Mask Properties**: Use levels, blur, and invert controls for precise mask customization
+11. **Color Correction**: Use Remove Magenta or SCNR tools for color cast and noise reduction
+12. **Image Blending**: Blend multiple exposures or processing versions using 18 professional blend modes
+13. **Optimize Layer Stack**: Multi-select multiple adjustment layers and flatten them into single processed layers
+14. **Compare Results**: Toggle layer visibility and switch between document tabs to compare processing stages
+15. **Multi-Document Projects**: Save complete multi-document projects with all processing states preserved
+16. **Export Final Images**: Export each document or combined results in your preferred format
 
 
 
@@ -650,7 +721,7 @@ Complete StarNet plugin integration for star removal and mask generation:
 - [x] **Improved Debugging** - Enhanced logging and diagnostic information for better troubleshooting
 
 ### Completed in v1.4.0 ✅
-- [x] **Professional Narrowband Processing** - Complete PixInsight-style narrowband system with 12 palettes and advanced controls
+- [x] **Professional Narrowband Processing** - Complete narrowband system with 12 palettes and advanced controls
 - [x] **Performance Revolution** - Instant dialog loading, optimized ComboBox selection, and improved slider responsiveness
 - [x] **Enhanced Noise Reduction** - Fixed dialog issues, improved performance, and seamless layer integration
 - [x] **18 Professional Blend Modes** - Complete blend mode system including HSL-based modes for creative processing
