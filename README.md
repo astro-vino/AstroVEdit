@@ -20,7 +20,34 @@ Featuring **multi-document management**, **advanced layer systems**, **LRGB comb
 
 <img width="3066" height="1901" alt="image" src="https://github.com/user-attachments/assets/0cd90956-cdbd-4129-a723-1a766f1b570b" />
 
+## 🆕 What's New in v1.7.2
 
+### 🌈 **Bayer Debayering System**
+- **Comprehensive Bayer Pattern Support** - Full support for RGGB, BGGR, GRBG, and GBRG patterns from astronomical cameras
+- **Automatic Pattern Detection** - Intelligent detection from FITS headers (BAYERPAT, INSTRUME) and statistical analysis
+- **Camera-Specific Defaults** - Built-in support for ZWO ASI, QHY, and other popular astronomical camera brands
+- **Professional Demosaicing** - High-quality bilinear interpolation algorithm for superior color reconstruction
+- **Dual Output Modes** - Choose between full-color RGB or grayscale luminance output for optimal workflow
+
+### 🎨 **Enhanced User Interface**
+- **Professional Dialog Design** - Polished Bayer Pattern Selection dialog with auto-detection results
+- **Dynamic Preview System** - Real-time preview updates showing processing options and expected results
+- **Processing Options** - Convert to grayscale luminance for better signal-to-noise ratio in monochrome workflows
+- **Material Design Integration** - Consistent styling with orange accent buttons matching application theme
+
+### 🔬 **Technical Enhancements**
+- **ITU-R BT.709 Luminance** - Standard-compliant luminance conversion (0.2126×R + 0.7152×G + 0.0722×B)
+- **Optimized File Loading** - Refactored file loading system with dedicated FileLoader class for better maintainability
+- **Memory Efficiency** - Single-channel grayscale output reduces memory usage for large astronomical datasets
+- **Error Resilience** - Comprehensive error handling with graceful fallback to regular grayscale loading
+
+### 🚀 **Workflow Improvements**
+- **LRGB Processing Support** - Extract high-quality luminance data for professional LRGB combination workflows
+- **Monochrome Optimization** - Specialized grayscale processing for better signal-to-noise ratio analysis
+- **Seamless Integration** - Full compatibility with existing layer system, adjustments, and processing tools
+- **Professional Results** - PixInsight-quality debayering results with proper astronomical stretching
+
+---
 
 ## 🆕 What's New in v1.7.1
 
