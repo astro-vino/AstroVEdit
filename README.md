@@ -9,7 +9,7 @@
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.7.0-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.7.1-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
@@ -21,6 +21,26 @@ Featuring **multi-document management**, **advanced layer systems**, **LRGB comb
 <img width="3066" height="1901" alt="image" src="https://github.com/user-attachments/assets/0cd90956-cdbd-4129-a723-1a766f1b570b" />
 
 
+
+## 🆕 What's New in v1.7.1
+
+### ⚡ **Performance Optimizations & Bug Fixes**
+- **Layer Visibility Toggle Optimization** - Instant layer visibility changes without fast preview indicator
+- **Efficient Layer Caching** - Layers now preserve processed results and reuse them for visibility changes
+- **SCNR Dialog Performance** - Fixed slider behavior to match other adjustment dialogs with proper debounced updates
+- **Eliminated Black Screen Flashes** - Removed unwanted fast preview triggers during layer visibility toggles
+- **Smooth Slider Experience** - All adjustment dialogs now provide consistent, professional slider behavior
+- **Rendering Pipeline Improvements** - Optimized rendering system to distinguish between content changes and visibility changes
+- **Memory Efficiency** - Reduced unnecessary cache invalidation and re-processing for simple visibility toggles
+
+### 🔧 **Technical Improvements**
+- **Smart Preview System** - Fast preview only activates when actually needed (during content adjustments)
+- **Debounced Timer System** - 1-second delay for adjustment dialogs prevents excessive processing
+- **Layer Manager Optimization** - Improved layer property change handling with selective cache invalidation
+- **Direct Rendering Path** - New optimized rendering path for visibility-only changes
+- **Event Handler Cleanup** - Proper event subscription/unsubscription for better performance
+
+---
 
 ## 🆕 What's New in v1.7.0
 
