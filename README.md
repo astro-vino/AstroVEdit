@@ -20,6 +20,34 @@ Featuring **multi-document management**, **advanced layer systems**, **LRGB comb
 
 <img width="3066" height="1901" alt="image" src="https://github.com/user-attachments/assets/0cd90956-cdbd-4129-a723-1a766f1b570b" />
 
+## 🆕 What's New in v1.7.3
+
+### 🛠️ **Critical Stability Fixes**
+- **StarNet Layer Compatibility** - Resolved stride mismatch errors between StarNet-generated layers and base images
+- **Multi-Format Layer Support** - Fixed layer rendering issues with mixed Gray8, Gray16, and BGR24 pixel formats
+- **Fast Preview Stability** - Eliminated crashes during real-time slider adjustments with multi-format layers
+- **AddStars Dialog Enhancement** - Fixed validation errors when using StarNet-generated extracted stars
+
+### 🎯 **StarNet Integration Improvements**
+- **Format Detection** - Enhanced base layer format detection for consistent StarNet output generation
+- **Pixel Processing** - Fixed 16-bit grayscale pixel corruption in extracted stars layers
+- **Memory Management** - Improved handling of StarNet layers loaded directly from memory vs. file-based stars
+- **Error Recovery** - Added comprehensive error handling with graceful layer skipping on format mismatches
+
+### 🚀 **Performance & Reliability**
+- **Layer Rendering** - Robust stride calculation and validation for all supported pixel formats
+- **Debug Logging** - Enhanced diagnostic logging for troubleshooting layer compatibility issues
+- **Exception Handling** - Prevented application crashes from propagating during layer processing
+- **Workflow Stability** - Seamless processing chains with StarNet, GraXpert, and adjustment layers
+
+### 🔧 **Technical Enhancements**
+- **Dynamic Format Adaptation** - Automatic pixel format conversion between incompatible layers
+- **Stride Safety** - Protected CopyPixels operations with proper stride validation
+- **Dialog Resilience** - Safe DialogResult handling preventing modal dialog crashes
+- **Processing Continuity** - Maintained layer processing even when individual layers encounter errors
+
+---
+
 ## 🆕 What's New in v1.7.2
 
 ### 🌈 **Bayer Debayering System**
