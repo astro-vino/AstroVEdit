@@ -9,7 +9,7 @@
   [![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/)
   [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.txt)
-  [![Version](https://img.shields.io/badge/version-1.7.3-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
+  [![Version](https://img.shields.io/badge/version-1.7.4-orange.svg)](https://github.com/astro-vino/AstroVEdit/releases)
 </div>
 
 ## Overview
@@ -20,7 +20,32 @@ Featuring **multi-document management**, **advanced layer systems**, **LRGB comb
 
 <img width="3066" height="1901" alt="image" src="https://github.com/user-attachments/assets/0cd90956-cdbd-4129-a723-1a766f1b570b" />
 
-## 🆕 What's New in v1.7.3
+
+
+## 🆕 What's New in v1.7.4
+
+### 🔄 **Advanced Image Transform System**
+- **Precision Rotation Engine** - Smooth 90° increments with exceptional accuracy and performance
+- **Intelligent Flip Operations** - Horizontal and vertical flip with dedicated transform pipeline
+- **Transform-Aware Zoom & Pan** - Zoom and pan operations that properly account for rotated and flipped images
+- **Per-Document Transform Persistence** - Each image tab remembers its rotation and flip state independently
+- **Coordinate System Intelligence** - Automatic dimension swapping for 90°/270° rotations ensures proper viewport calculations
+
+### 🎯 **Enhanced User Experience**
+- **Real-Time Transform Centers** - Transform centers dynamically update with zoom level for consistent behavior
+- **Clean Transform Stack** - Separate Scale → Flip → Rotate transform pipeline eliminates interference
+- **Advanced Viewport Management** - Images stay properly centered and accessible during all transform operations
+- **Multi-Document Transform State** - Switch between images while preserving individual rotation and flip settings
+
+### 🛠️ **Technical Improvements**
+- **Pure WPF Transforms** - No pixel manipulation for maximum performance and quality
+- **Centralized Transform Management** - Unified system for managing rotation, flip, and zoom interactions
+- **Dimension-Aware Calculations** - Smart handling of rotated image dimensions for accurate viewport sizing
+- **Transform Compatibility** - All transform operations work seamlessly together without conflicts
+
+---
+
+## What's New in v1.7.3
 
 ### 🛠️ **Critical Stability Fixes**
 - **StarNet Layer Compatibility** - Resolved stride mismatch errors between StarNet-generated layers and base images
@@ -48,7 +73,7 @@ Featuring **multi-document management**, **advanced layer systems**, **LRGB comb
 
 ---
 
-## 🆕 What's New in v1.7.2
+## What's New in v1.7.2
 
 ### 🌈 **Bayer Debayering System**
 - **Comprehensive Bayer Pattern Support** - Full support for RGGB, BGGR, GRBG, and GBRG patterns from astronomical cameras
@@ -512,7 +537,7 @@ Complete StarNet plugin integration for star removal and mask generation:
 
 ### Installation
 #### Windows Installer 
-1. Download the latest `AstroVEdit-1.7.0-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
+1. Download the latest `AstroVEdit-1.7.4-Setup.exe` from [Releases](https://github.com/astro-vino/AstroVEdit/releases)
 2. Run the installer as Administrator
 3. Follow the installation wizard
 4. **File Associations**: Installer automatically registers .vino project files and adds "Open with AstroVEdit" to image context menus
